@@ -5,9 +5,8 @@ void main() {
     print(element);
   });
 
-  const List<int> arr2 = [4,5,6];
+  const List<int> arr2 = [1,2,3];
 
   arr2.forEach(print);
-
 
 }
