@@ -1,5 +1,4 @@
 void main(List<String> args) {
-
   // 命名参数（带默认值）
   // void myPrint(String name, { age = 6 }) {
   //   print('hello, $name, age is $age');
@@ -21,7 +20,6 @@ void main(List<String> args) {
 
   // myPrint('dart', age: 6);
 
-
   // 可选参数
   // void myPrint(String name, [ age ]) {
   //   print('hello, $name, age is $age');
@@ -30,11 +28,9 @@ void main(List<String> args) {
   // myPrint('dart', 6);
 
   // 可选参数（带默认值）
-  void myPrint(String name, [int age = 6 ]) {
+  void myPrint(String name, [int age = 6]) {
     print('hello, $name, age is $age');
   }
 
   myPrint('dart');
-
-  
 }
